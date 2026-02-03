@@ -12,6 +12,12 @@ cask "scratch" do
 
   app "Scratch.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Scratch.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Application Support/com.scratch.app",
   ]
