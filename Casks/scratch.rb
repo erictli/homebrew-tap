@@ -1,8 +1,8 @@
 cask "scratch" do
-  version "0.1.0"
-  sha256 "e0d187ea99fad11ba74912156d64b1c8f080b269ad85555e58ac8b27b886f7d4"
+  version "0.2.0"
+  sha256 "79107641adf332eefe29d655a4c99b463b80e1783114cf4316d68d9c389e3538"
 
-  url "https://github.com/erictli/scratch/releases/download/v#{version}-beta/Scratch_#{version}.dmg"
+  url "https://github.com/erictli/scratch/releases/download/v#{version}-beta/Scratch_#{version}_aarch64.dmg"
   name "Scratch"
   desc "Minimalist, offline-first markdown note-taking app"
   homepage "https://github.com/erictli/scratch"
