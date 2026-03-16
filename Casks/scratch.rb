@@ -1,6 +1,6 @@
 cask "scratch" do
-  version "0.8.0"
-  sha256 "bacf4bb77a96ab12c36feca3ba6b6d416e92956545185f0a914425258b82099a"
+  version "0.9.0"
+  sha256 "8c6f8090335ad7554c6df94745de7977ef5b147c496f4d0c79497cf9c0f9950c"
 
   url "https://github.com/erictli/scratch/releases/download/v#{version}/Scratch_#{version}_universal.dmg"
   name "Scratch"
