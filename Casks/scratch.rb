@@ -7,7 +7,7 @@ cask "scratch" do
   desc "Minimalist, offline-first markdown note-taking app"
   homepage "https://github.com/erictli/scratch"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "Scratch.app"
 
